@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    app:cardCornerRadius="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/posti_fotoja"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/posti_titulli_txtview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:text="Titulli"/>
+
+        <TextView
+            android:id="@+id/posti_pershkrimi_txtview"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:textColor="#000000"
+            android:text="Përshkrimi..."/>
+
+        <TextView
+            android:id="@+id/posti_emri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Albend Ahmetaj"
+            android:textSize="15sp"
+            android:fontFamily="serif"
+            android:gravity="end"
+            android:textStyle="bold"
+            android:textColor="#FFEA0404"/>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

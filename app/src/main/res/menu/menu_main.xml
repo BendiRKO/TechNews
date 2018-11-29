@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ekene.blogzone.MainActivity">
+    <item
+        android:id="@+id/action_shto"
+        android:icon="@drawable/addicon1"
+        app:showAsAction="always"
+        android:title="Shto"/>
+    <item
+        android:id="@+id/dil"
+        android:orderInCategory="100"
+        android:title="Dil"
+        app:showAsAction="never" />
+
+</menu>
